@@ -3,5 +3,17 @@
 To run particular day:
 
 ```
-cat input_XX.txt | cargo run dayXX
+cargo run --bin dayxx < input_xx.txt
+```
+
+To test the day:
+
+```
+cargo test --bin dayxx
+```
+
+To test all:
+
+```
+cargo test
 ```
