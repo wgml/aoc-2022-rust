@@ -18,7 +18,7 @@ pub mod aoc {
             return stdin
                 .lock()
                 .lines()
-                .map(|l| l.unwrap().trim().to_string())
+                .map(|l| l.unwrap().trim_matches('\n').to_string())
                 .collect();
         }
     }
